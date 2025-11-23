@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    height: 29.46px;
+    margin-top: 35.02px;
+    top: 35.02px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-schooled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 120px;
+    color: #FFFFFF;
+}
+
+.expression-wrapper {
+    display: flex;
+}
+
+.expression {
+    margin-right: 60px;
+}
+
+.expression:last-child {
+    margin-right: 0;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #C271FF;
+    padding: 17px 20px;
+    border-radius: 40px;
+    border-style: none;
+    margin-top: 40px;
+}
